@@ -7,7 +7,7 @@ interface headerProps {
 
 const Header: React.FC<headerProps> = ({ children, image }) => {
   return (
-    <div className=" flex-col mt-[2rem] md:flex-row items-center px-[2rem] overflow-x-hidden  rounded-lg w-[80%] bg-white text-black m-3 shadow-lg  md:mt-[2.4rem]  opacity-90 py-5  flex  ">
+    <div className=" flex-col mt-[2rem] md:flex-row items-center md:w-[80%]  px-[2rem] overflow-x-hidden  rounded-lg w-[90%] bg-white text-black m-3 shadow-lg  md:mt-[2.4rem]  opacity-90 py-5  flex  ">
       <div className="font-bold flex-1 flex flex-col  items-center text-2xl md:text-4xl  order-2 md:items-start md:order-1">
         <p className="w-full mb-5 md:mb-0 md:w-3/4">{children}</p>
         <p className="text-sm text-gray-500 w-full md:w-1/2">
